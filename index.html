@@ -1,34 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-     <!-- Referencia de la hoja de estilo de Css -->
-     <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="reset.css">
-     <title> Alura Geek</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>AluraGeek</title>
+
 </head>
-<header>
-    <h1>AluraGeek</h1>
-</header>
-<main>
-    <section>
-        <h1>Mis productos</h1>
-    </section>
-    <section>
-        <h1>Agregar productos</h1>
-        <form action="">
-
-        </form>
-    </section>
-
-</main>
-<footer>
-    <p>Desarrollado por Alejandro Garcia</p>
-</footer>
 <body>
-    
+    <header class="encabezado">
+        <img src="img/alien.png" alt="">
+        <h1>AluraGeek</h1>
+        <img src="img/alien.png" alt="">
+
+    </header>
+    <main>
+        <section class="productos-flex-container">
+            <h1>Mis productos</h1>
+            <div class="card">
+                <img src="./img/producto1.png" />
+                <div class="card-container--info">
+                  <p>Nombre</p>
+                  <div class="card-container--value">
+                    <p>$ 00.00</p>
+                    <img src="./img/trashIcon.png" />
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section>
+            <h1>Agregar productos</h1>    
+                <form  class="formulario" action="">
+                    <div><label for="nombre">nombre</label><input type="text" id="nombre"></div>
+                    <div><label for="tipo"></label><input type="text" id="tipo"></div>
+                    <div><input type="text"></div>                    
+                </form>
+            </section>
+            
+           
+
+    </main>
+    <footer>
+        <div class="footer-flex-container">
+            <img src="img/alien.png" alt="">
+            <h1>AluraGeek</h1>
+        <img src="img/alien.png" alt="">
+        </div>
+               
+        <div class="rodapie">
+              <p>Desarrollado por Alejandro García</p>
+              <p>Abril del 2024</p>
+        </div>    
+    </footer>
+
+
 </body>
+
 </html>
