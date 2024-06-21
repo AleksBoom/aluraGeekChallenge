@@ -1,0 +1,53 @@
+
+.encabezado{
+    background-color: #5300C8;
+    color: #c004d9;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+
+}
+
+h1{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+    font-size: 24px;
+    }
+.productos-flex-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.formulario{
+    display: flex;
+}
+
+footer{
+    background-color: #5300C8;
+    height: 120px;
+    padding: 50px;
+
+}
+.footer-flex-container{
+    color: #c004d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+
+}
+.rodapie{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.rodapie p{
+    margin-bottom: 4px;
+}
