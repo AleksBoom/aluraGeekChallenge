@@ -25,7 +25,7 @@
         <section class="productos-flex-container">
             <h1>Mis productos</h1>
             <div class="card">
-                <img src="./img/producto1.png" />
+                <img class="card-img-container" src="./img/producto1.png" />
                 <div class="card-container--info">
                   <p>Nombre</p>
                   <div class="card-container--value">
@@ -36,11 +36,16 @@
               </div>
         </section>
         <section>
-            <h1>Agregar productos</h1>    
+            <h1>Agregar producto:</h1>    
                 <form  class="formulario" action="">
-                    <div><label for="nombre">nombre</label><input type="text" id="nombre"></div>
-                    <div><label for="tipo"></label><input type="text" id="tipo"></div>
-                    <div><input type="text"></div>                    
+                    <input type="text" id="nombre" placeholder="nombre...">
+                    <input type="text" id="precio" placeholder="precio...">
+                    <input type="text" id="imagen" placeholder="imagen...">
+                    <div contenedor_boton>
+                        <button type="submit" class="form__boton">Enviar</button> 
+                        <button type="reset" class="form__boton">Borrar</button>               
+                    </div>
+                    
                 </form>
             </section>
             
