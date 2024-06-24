@@ -20,11 +20,81 @@ h1{
 .productos-flex-container{
     display: flex;
     flex-direction: column;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.card{
+    background-color: #5300C8;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 3px solid #000;
+    border-radius: 16px;
+    width: 249px;
+}
+.card-img-container{
+    border: 3px solid #000;
+    border-radius: 16px;
+}
+.card-container--value{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    
 
 }
 .formulario{
     display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
+.formulario input{
+    margin: 10px;
+    padding: 6px;
+    border: 2px solid #03318c;
+    border-radius: 24px;
+    height: 28px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #03318c;
+    
+
+}
+.formulario input::placeholder{
+    color: #03318c;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.form__boton{
+    height: 55px;
+    width: 200px;
+    background-color: white;
+    border: 3px solid #03318c;
+    color: #03318c;
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding:  16px 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+
+    
+
+}
+.form__boton:hover{
+    background-color: #03318c;
+    color: white;
+  
+
+}
+
+
+
+
 
 footer{
     background-color: #5300C8;
