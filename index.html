@@ -27,24 +27,15 @@
         <section class="productos-flex-container">
             <header><h2>Mis productos</h2></header>
             <div  data-product class="container_cards">             
-                <div class="card">
-                    <img class="card-img-container" src="./img/producto1.png" />
-                    <div class="card-container--info">
-                        <p>Nombre</p>
-                        <div class="card-container--value">
-                        <p>$ 00.00</p>
-                        <img src="./img/trash.png" />
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </section>
         <section>
             <h2>Agregar producto:</h2>    
                 <form  class="formulario"  data-form>
-                    <input type="text" id="nombre" placeholder="nombre...">
-                    <input type="text" id="precio" placeholder="precio...">
-                    <input type="text" id="imagen" placeholder="imagen...">
+                    <input data-name type="text"  placeholder="nombre...">
+                    <input data-price type="text"  placeholder="precio...">
+                    <input data-image type="text"  placeholder="imagen...">
                     <div contenedor_boton>
                         <button type="submit" class="form__boton">Enviar</button> 
                         <button type="reset" class="form__boton">Borrar</button>               
