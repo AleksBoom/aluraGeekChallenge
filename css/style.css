@@ -7,42 +7,88 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    box-shadow: 3px 3px gray;
     
 
 }
+
 
 h1{
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
     font-style: normal;   
     font-size: 24px;
+    
     }
-.productos-flex-container{
+h2{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+    font-size: 24px;
+    margin-bottom: 25px;
+    
+    
+    
+}
+
+.container_main{
     display: flex;
-    flex-direction: column;
-    color: white;
+    margin: 70px 50px;
+
+}
+section{
+        width: 50%;
+}
+
+/*.productos-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+
+}*/
+.container_cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     font-family: 'Courier New', Courier, monospace;
 
 }
-.card{
+
+.card{  
     background-color: #5300C8;
-    padding-left: 10px;
+    padding-left: 5px;
     padding-top: 10px;
     border: 3px solid #000;
     border-radius: 16px;
-    width: 249px;
+    width: 245px;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
 }
+
 .card-img-container{
     border: 3px solid #000;
     border-radius: 16px;
 }
+.card-container--info{
+    margin-left: 5PX;
+    margin-top: 5px;
+}
+
 .card-container--value{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     font-weight: bold;
     
 
 }
+.card-container--value img{
+    margin-right: 10px;
+    margin-bottom: 12px;
+}
+
 .formulario{
     display: flex;
     flex-direction: column;
@@ -92,14 +138,12 @@ h1{
 
 }
 
-
-
-
-
 footer{
     background-color: #5300C8;
     height: 120px;
     padding: 50px;
+    box-shadow: -2px -2px 0px 2px gray;
+    
 
 }
 .footer-flex-container{

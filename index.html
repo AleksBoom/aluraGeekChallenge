@@ -22,22 +22,26 @@
 
     </header>
     <main>
+        
+        <div class="container_main">           
         <section class="productos-flex-container">
-            <h1>Mis productos</h1>
-            <div class="card">
-                <img class="card-img-container" src="./img/producto1.png" />
-                <div class="card-container--info">
-                  <p>Nombre</p>
-                  <div class="card-container--value">
-                    <p>$ 00.00</p>
-                    <img src="./img/trashIcon.png" />
-                  </div>
+            <header><h2>Mis productos</h2></header>
+            <div  data-product class="container_cards">             
+                <div class="card">
+                    <img class="card-img-container" src="./img/producto1.png" />
+                    <div class="card-container--info">
+                        <p>Nombre</p>
+                        <div class="card-container--value">
+                        <p>$ 00.00</p>
+                        <img src="./img/trash.png" />
+                        </div>
+                    </div>
                 </div>
-              </div>
+            </div>
         </section>
         <section>
-            <h1>Agregar producto:</h1>    
-                <form  class="formulario" action="">
+            <h2>Agregar producto:</h2>    
+                <form  class="formulario"  data-form>
                     <input type="text" id="nombre" placeholder="nombre...">
                     <input type="text" id="precio" placeholder="precio...">
                     <input type="text" id="imagen" placeholder="imagen...">
@@ -48,6 +52,7 @@
                     
                 </form>
             </section>
+        </div>
             
            
 
@@ -64,6 +69,7 @@
               <p>Abril del 2024</p>
         </div>    
     </footer>
+    <script type="module" src="js/controllers/main.js"></script>
 
 
 </body>
