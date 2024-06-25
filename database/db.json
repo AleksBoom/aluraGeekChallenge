@@ -1,25 +1,37 @@
 {
-    "products":[ 
-        {
-            "name": "Darth Vader",
-            "price": "$50",
-            "image": "https://media.istockphoto.com/id/458317477/es/foto/lego-darth-vader-con-espada.jpg?s=2048x2048&w=is&k=20&c=v9yrTI4pjCgD4BVZNiycCcdukASolmJNWlrPfM6YDYo=",
-            "id":1
-            
-        },
-        {
-            "name": "Flash",
-            "price": "$25",
-            "image": "https://media.istockphoto.com/id/531487905/es/foto/el-flash-minifigure.jpg?s=2048x2048&w=is&k=20&c=7PWdDvcv_QYo6Xukwl7clHHHIPpNvHs5scKNNWUbyv8=",
-            "id":2
-        },
-        {
-            "name": "Batman",
-            "price": "$30",
-            "image": "https://media.istockphoto.com/id/517124944/es/foto/lego-hasta-batman.jpg?s=2048x2048&w=is&k=20&c=QtPoAprLaGiUruVaZZP0gFNXGQZ0mhp99q3fBbiOEDY=",
-            "id":3
-
-        }
-        
-    ]
+  "products": [
+    {
+      "nombre": "Darth Vader",
+      "precio": "$50",
+      "imagen": "./img/producto1.png",
+      "id": 1
+    },
+    {
+      "nombre": "Batman Mini",
+      "precio": "$50",
+      "imagen": "./img/producto2.webp",
+      "id": 2
+    },
+    {
+      "nombre": "Goku",
+      "precio": "$25",
+      "imagen": "./img/product3.jpg",
+      "id": 3
+    },
+    {
+      "nombre": "Flash",
+      "precio": "$30",
+      "imagen": "./img/product4.jpg",
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    }
+  ]
 }
