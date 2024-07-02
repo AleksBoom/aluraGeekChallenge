@@ -38,21 +38,21 @@ h2{
 }
 section{
         width: 50%;
+        padding-left: 20px;
 }
 
-/*.productos-flex-container{
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Courier New', Courier, monospace;
 
-}*/
 .container_cards{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     font-family: 'Courier New', Courier, monospace;
+    height: 720px;
+    overflow: auto;
+   
 
 }
+
 
 .card{  
     background-color: #5300C8;
@@ -70,6 +70,8 @@ section{
 .card-img-container{
     border: 3px solid #000;
     border-radius: 16px;
+    height: 233px;
+    width: 233px;
 }
 .card-container--info{
     margin-left: 5PX;
@@ -88,11 +90,19 @@ section{
     margin-right: 10px;
     margin-bottom: 12px;
 }
+.delete-button{
+    margin: 5px;
+    background-color: #5300C8;
+    border: none;
+    cursor: pointer;
+
+}
 
 .formulario{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-left: 20px;
 }
 .formulario input{
     margin: 10px;
@@ -165,3 +175,50 @@ footer{
 .rodapie p{
     margin-bottom: 4px;
 }
+
+@media (max-width: 768px) {
+    .container_main{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        
+    }
+    section{
+        width: 100%;
+        padding: 0;
+        margin-top: 20px;
+        
+    }
+    .container_main{
+      
+        width: 100%;
+        margin: 0;
+    }
+    .formulario{
+        margin-left: 3px;
+    }
+    .form__boton{
+        width: 40%;
+    }
+    .container_cards{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        align-content: center;
+    }
+    .card{
+        margin-right: 0;
+        text-align: left;
+    }
+
+    
+
+}
+
+  
+   
+   
+
+    
+    

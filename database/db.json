@@ -2,36 +2,45 @@
   "products": [
     {
       "nombre": "Darth Vader",
-      "precio": "$50",
+      "precio": "50",
       "imagen": "./img/producto1.png",
       "id": 1
     },
     {
       "nombre": "Batman Mini",
-      "precio": "$50",
+      "precio": "50",
       "imagen": "./img/producto2.webp",
       "id": 2
     },
     {
       "nombre": "Goku",
-      "precio": "$25",
+      "precio": "25",
       "imagen": "./img/product3.jpg",
       "id": 3
     },
     {
       "nombre": "Flash",
-      "precio": "$30",
+      "precio": "30",
       "imagen": "./img/product4.jpg",
       "id": 4
     },
     {
-      "id": 5
+      "id": "d481",
+      "nombre": "darth vader",
+      "precio": "86",
+      "imagen": "./img/product4.jpg"
     },
     {
-      "id": 6
+      "id": "aa88",
+      "nombre": "darth vader",
+      "precio": "86",
+      "imagen": "https://www.accesoriosmexicali.com/cdn/shop/products/image_25c13451-9e83-4cde-a2e5-72607f33f1b9_2048x2048.jpg?v=1603895812"
     },
     {
-      "id": 7
+      "id": "7ab5",
+      "nombre": "Goku",
+      "precio": "25",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzHopRoVHNE8HG5CfAEbiuRX-kx2dc3sz9cQ&s"
     }
   ]
 }
