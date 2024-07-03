@@ -13,6 +13,8 @@ Conceptos a desarrollar en el challenge
  ![imagen](https://github.com/AleksBoom/aluraGeekChallenge/assets/14499896/dc765873-1649-41ee-9044-926939408ee7)
 
 Version para Movil
+
+
  ![imagen](https://github.com/AleksBoom/aluraGeekChallenge/assets/14499896/ee7aecf2-af94-484a-aab0-674f955953b7)
 
 
