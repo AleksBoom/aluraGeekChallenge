@@ -9,8 +9,12 @@ Conceptos a desarrollar en el challenge
  -Solicitudes a servidor 
 
  Tareas a realizar
- Sitio web dinamico que simula una tienda de tazas de superheroes, la cual integra un formulario para ingresar un nuevo producto y una seccion donde los productos son renderizados de manera dinamica y viene de una API.
+ Crear un sitio web dinamico que simula una tienda de tazas de superheroes, la cual integra un formulario para ingresar un nuevo producto y una seccion donde los productos son renderizados de manera dinamica y viene de una API.
  ![imagen](https://github.com/AleksBoom/aluraGeekChallenge/assets/14499896/dc765873-1649-41ee-9044-926939408ee7)
+
+ Realiar la version para Movil
+ ![imagen](https://github.com/AleksBoom/aluraGeekChallenge/assets/14499896/ee7aecf2-af94-484a-aab0-674f955953b7)
+
 
  
 
